@@ -1,0 +1,397 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body{
+  background: #2f3240;
+  
+}
+.navbar{
+  height: 70px;
+  width: 100%;
+  background-color: #2f3240;
+  display: flex;
+  border-bottom: .5px solid #555;
+}
+.navbar img{
+  height: 45px;
+  width: 45px;
+  margin: 15px 10px;
+  border-radius: 50%;
+  border: .5px sold #999;
+  
+}
+.navbar p{
+  color: white;
+  font-family: Tahoma;
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  margin: auto 0px;
+}
+.navlist{
+  display: flex;
+  margin: auto;
+  
+}
+.navlist a{
+  color: white;
+  padding: 7px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: Sans-Serif;
+}
+.navlist a li{
+  list-style: none;
+  font-size: 15px;
+  outline: none;
+}
+.headerinfo img{
+  height: px;
+  margin-bottom: 0px;
+ 
+}
+.pinfo{
+  color: black;
+  text-align: center;
+  margin: 10px;
+  background: lightblue;
+  padding: 7px;
+  border-radius: 20px;
+  
+}
+.textnfo{
+  margin: 25px 0px;
+  margin-top: 0px;
+  padding: 50px 15px;
+  border-radius: 10px;
+  color: white;
+  font-family: Times New Roman;
+  box-shadow: inset 1px 1px 20px 2px black;
+  
+}
+.textnfo b{
+  font-size: 17px;
+  color: white;
+}
+.cinfo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: left;
+  width: 100%;
+  margin-top: 10px;
+  border-radius: 10px;
+  padding-bottom: 30px;
+  box-shadow: inset 1px 1px 20px 2px black;
+}
+.cinfo td{
+  border: 1px sold #999;
+  widows: 100%;
+  padding: 10px;
+  font-family: Sans-Serif;
+  font-size: 17px;
+  font-style: italic;
+  
+}
+tr:nth-child(even) {
+  background-color: black;
+}
+.myskill{
+  width: 98%;
+  height: 1000px;
+  margin: auto;
+  border-radius: 10px;
+  box-shadow: inset 2px 2px 35px 5px black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;;
+}
+.myskill h3{
+  height: 200px;
+  width: 200px;
+  color: black;
+  margin: 33px auto;
+  
+
+}
+.html h3{
+  border: 15px solid #2f3240;
+  background: #e34c26;
+  border-radius: 50%;
+  line-height: 35px;
+  font-size: 25px;
+  padding: 50px;
+  box-shadow: 1px 1px 45px 1px black;
+  
+}
+.css h3{
+  height: 200px;
+  width: 200px;
+  /*margin: 33px auto;*/
+  background: #2965f1;
+  border-radius: 50%;
+  text-align: center;
+  font-family: Segoe UI, Arial;
+  padding-top: 50px;
+  line-height: 30px;
+  border: 15px solid #2f3240;
+  box-shadow: 1px 1px 45px 1px black;
+}
+
+.js h3{
+  height: 200px;
+  width: 200px;
+  background: #f0db4f;
+  border-radius: 50%;
+  padding-top: 50px;
+  text-align: center;
+  line-height: 30px;
+  border: 15px solid #2f3240;
+  box-shadow: 1px 1px 45px 1px black;
+  font-weight: bold;
+  font-size: 25px;
+  font-family: Segoe UI;
+}
+
+.quick_hadis{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  justify-content: center;
+  align-items: center;
+}
+
+#Contact_from{
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  border: 1px solid white;
+  border-radius: 20px;
+  box-shadow: inset 2px 2px 35px 5px #555;
+  margin-top: 40px;
+  margin-bottom: -50px;
+  padding: 20px 5px;
+}
+
+input{
+  width: 90%;
+  height: 50px;
+  margin: 10px 15px;
+  border-radius: 20px;
+  font-size: 20px;
+  padding: 10px;
+}
+.massage{
+  height: 100px;
+  width: 90%;
+}
+
+  
+button{
+  margin: 3% 25%;
+}
+
+#footer{
+    height: 760px;
+    border-top: 1px solid ref;
+    background: black;
+  }
+  
+}
+
+.footer{
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
+  
+}
+
+#footer h1{
+  margin: 50px;
+  padding: 10px;
+  text-align: center;
+  border: 2px solid #999;
+  border-radius: 10px;
+  /*position: absolute;*/
+  position: relative;
+  top: 40px;
+  color: white;
+}
+#footer p{
+  font-size: 15px;
+  text-align: justify;
+  font-family: Times New Roman;
+  position: relative;
+  padding: 30px 5px;
+  color: white;
+}
+#footer a{
+  color: white;
+  font-size: 15px;
+  text-decoration: none;
+  font-family: Sans-Serif;
+}
+#footer li{
+  list-style: none;
+}
+
+#footer h4{
+  border-bottom: .5px solid #999;
+  margin: 10% 35%;
+  text-align: center;
+  padding: 10px;
+  color: white;
+}
+
+.quickLink{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.quickL{
+  flex-direction: center;
+  line-height: 30px;
+}
+
+.socialMedia {
+  display: flex;
+  justify-content: center;
+  margin-top: -20px;
+  
+  position: relative;
+}
+
+.socialMedia a{
+  height: 50px;
+  width: 50px;
+  padding: px;
+  margin: 20px;
+  text-align: center;
+  line-height: 60px;
+  border: .5px solid #999;
+  border-radius: 50px;
+  
+}
+
+.fa-facebook {
+  transition: all .3s linear;
+}
+.fa-facebook a i:hover{
+  transform: scale (2.4);
+  height: 70px;
+}
+
+.copyright {
+  height: 80px;
+  text-align: center;
+  position: relative;
+  top: 50px;
+  padding-top:;
+  line-height: 50px;
+  border-top: 1px solid #999;
+  color: white;
+}
+
+/*album.html file css*/
+
+.img{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px 1fr));
+  grid-gap: 3px;
+  grid-auto-flow: dense;
+}
+  /*justify-content: center;
+  align-items: center;
+  padding: 0px;
+  box-shadow: inset 1px 1px 35px 5px #555;*/
+
+.img img{
+  width: 100%;
+  height: 100%;
+  border: 1px solid #555;
+  border-radius: 15px;
+  background: linear-gradient(to top right, #ffffff 10%, #999999 100%);
+}
+.vertical{
+  
+  grid-row: auto / span 2;
+  
+}
+.horizontal {
+  grid-column: auto / span 2;
+}
+
+/*content.html css file*/
+
+.islamic_content{
+  
+}
+.hadis{
+  padding: 15px;
+  text-align: center;
+  background: green;
+  color: white;
+}
+.post{
+  margin: 5px 50px;
+  padding: 10px;
+  font-size: 20px;
+  text-align: center;
+  background: #C7EDCC;
+  border: 1px solid black;
+  border-start-end-radius: 50px;
+  border-bottom-left-radius: 50px;
+}
+.article{
+  margin: 15px;
+  font-size: 18px;
+  text-align: ;
+  border: 2px solid #555;
+  box-shadow: 1px 1px 20px 1px black;
+  border-radius: 10px;
+  padding: 15px;
+}
+.reference{
+  font-style: italic;
+  background: #f2f2f2;
+  border-radius: 10px;
+  padding: 10px;
+  border-top: 1px dotted #555;
+}
+.btop{
+  
+  
+}
+.btop a h5{
+  background: red;
+  height: 30px;
+  border-radius: 20px;
+  width: 90px;
+  padding: 10px;
+  color: white;
+  text-align: center;
+  position: fixed;
+  bottom: 100px;
+  right: 5px;
+}
+.Cmessenger a{
+  margin: 5px;
+  border-bottom-right-radius: 0px;
+  border-radius: 50px;
+  text-decoration: none;
+  position: fixed;
+  bottom: 100px;
+  right: 15px;
+}
+.Cmessenger i{
+  width: 48px;
+  height: 48px;
+  background: white;
+  border-radius: 50px;
+}
