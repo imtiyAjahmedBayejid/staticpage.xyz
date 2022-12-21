@@ -351,6 +351,57 @@ button{
   border-start-end-radius: 50px;
   border-bottom-left-radius: 50px;
 }
+.dropdown{
+  position: relative;
+  display: inline-block;
+  position: fixed;
+  top: 200px;
+  right: 6px;
+  
+}
+.dropdown buttom{
+  background: teal;
+  border-radius: 10px;
+  padding: 10px;
+  color: white;
+  text-align: center;
+  
+}
+.dropdown-content{
+    position: absolute;
+    background-color: white;
+    color: black;
+    margin: 15px;
+    min-width: 120px;
+    box-shadow: 0px 8px 16px 0px #999;
+    border-radius: 10px;
+    top: 10px;
+    right: 34px;
+    display: none;
+}
+.dropdown-content a{
+  color: black;
+  text-decoration: none;
+  
+}
+.dropdown-content a h5{
+  width: 100%;
+  text-align: center;
+  padding: 15px 0px;
+  border-bottom: 1px solid #555
+}
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+.dropdown buttom:hover{
+  background: black;
+}
+.dropdown a h5:hover{
+  background: teal;
+  color: white;
+}
+
+
 .article{
   margin: 15px;
   font-size: 18px;
